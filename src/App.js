@@ -36,7 +36,7 @@ class App extends Component {
   
   // API call getting 5 recent news stories from google. Sets the state with the new data each time.
   loadData(){
-    var url = 'https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=71700fe98f8f489bae3b7d917f75b8d6&pageSize=5';
+    var url = 'https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=APIKEY&pageSize=5';
 var req = new Request(url);
 fetch(req)
     .then(result => result.json())
